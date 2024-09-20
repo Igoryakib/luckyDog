@@ -8,6 +8,7 @@
 .header, .main {
     width: 95%;
     padding: 10px 20px;
+    margin: 0 auto;
 }
 
 .header_content {
@@ -30,13 +31,6 @@
 img {
     width: 450px;
     height: auto;
-}
-
-.section__content {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .section__content1 {
@@ -75,8 +69,17 @@ h2 {
     font-family: 'Lucky';
 }
 
-li, h3 {
+li, h3, p {
     font-size: 20px;
     font-weight: 500;
     font-family: 'Lucky'; 
+}
+
+.wrapper_text {
+    margin: 0 auto;
+    text-align: center;
+}
+
+section {
+    margin: 0 auto;
 }
