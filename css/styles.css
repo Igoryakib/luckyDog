@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Lucky";
+    src: url(../fonts/LTRemark-Regular.otf)
+    format("truetype");
+    font-weight: normal;
+}
+
+.header, .main {
+    width: 95%;
+    padding: 10px 20px;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation {
+    width: 400px;
+}
+
+.navigation_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 450px;
+    height: auto;
+}
+
+.section__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.section__content1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.list_item > a {
+    transition: linear 200ms;
+    color: black;
+}
+
+.list_item:hover > a {
+    color: palevioletred;
+}
+
+.logo {
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Lucky';
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 650;
+    font-family: 'Lucky';
+}
+
+li, h3 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Lucky'; 
+}
