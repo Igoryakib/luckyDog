@@ -1,19 +1,23 @@
-@font-face {
-    font-family: "Lucky";
-    src: url(../fonts/LTRemark-Regular.otf)
-    format("truetype");
-    font-weight: normal;
+/* Підключаю шрифти через Google fonts, використовуючи посилання */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@font-face {/* Підключаю шрифти з Fontesk. Використовую font-face.*/
+    font-family: "Lucky"; /* Вказую назву шрифта*/ 
+    src: url(../fonts/LTRemark-Regular.otf) /* Вказую шлях до шрифту. До папки fonts, де він знаходиться.*/
+    format("truetype"); /*Встановлюю формат стилю по стандарту*/
+    font-weight: normal; /*Встановлюю нормальну товщину шрифту*/
 }
 
 .header, .main {
-    width: 95%;
-    padding: 10px 20px;
-    margin: 0 auto;
+    width: 95%; /*Ширина між блоками*/
+    padding: 10px 20px; /*Внутрішній відступ*/
+    margin: 0 auto; /*Зовнішні відступ*/
 }
 
 .header_content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /*Відцентровую елементи в хедері*/
     align-items: center;
 }
 
@@ -43,18 +47,18 @@ img {
 }
 
 ul, li, a {
-    text-decoration: none;
-    list-style: none;
+    text-decoration: none; /*Для видалення підкреслень*/
+    list-style: none; /*Для видалення крапок в списку*/
     color: black;
 }
 
 .list_item > a {
-    transition: linear 200ms;
+    transition: linear 200ms; /*Параметри переходу*/
     color: black;
 }
 
 .list_item:hover > a {
-    color: palevioletred;
+    color: palevioletred; /*Ховер на елементи навігації*/
 }
 
 .logo {
@@ -66,15 +70,17 @@ ul, li, a {
 h2 {
     font-size: 30px;
     font-weight: 650;
-    font-family: "Gowun Batang", serif;
+    font-family: "Roboto", sans-serif;
 }
 
 li, h3, p {
     font-size: 20px;
     font-weight: 500;
-    font-family: "Gowun Batang", serif;; 
+    font-family: "Roboto", sans-serif; 
 }
 
+
+/*Відступи у блоках*/
 .wrapper_text {
     margin: 0 auto;
     text-align: center;
